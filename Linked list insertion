@@ -1,0 +1,5 @@
+class Solution:
+    def insertAtBegining(self, head, x):
+        prev=Node(x)
+        prev.next=head
+        return prev
